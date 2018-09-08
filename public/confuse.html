@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Confusing Colors">
+    <meta property="og:image" content="https://seeklogo.com/images/C/c-colour-letter-logo-92757BD281-seeklogo.com.png">
+    <meta name="description" content="Confusing Colors is a simple color game.">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1 height=device-height">
+    <title>Confuse</title>
+    <link rel="icon" type="image/png" href="./img/logo.png" />
+    <link rel="stylesheet" href="./css/confuse.css">
+    <script src="/game.js" charset="utf-8"></script>
+    <script src="/mainController.js" charset="utf-8"></script>
+    <script src="/showLabels.js" charset="utf-8"></script>
+    <script src="/utils.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+          <div class="titleBlock">
+            <div class="title">
+              <h2>Confuse</h2></div>
+          </div>
+          <div class="colorNameBlock">
+            <div class="colorName">
+              <h1 id="colorName"></h1></div>
+          </div>
+          <div class="centerBlock">
+            <div class="optionBlock">
+              <div class="optionButtons"></div>
+              <div class="hintBlock">
+                <div class="hintHeading" id='hintHeading'></div>
+                <div class="hintContentBlock" id='hintContent'></div>
+              </div>
+            </div>
+            <div class="tableBlock">
+              <table class='grid' id='grid'>
+                <tr>
+                  <td class="cell" id='cell1'></td>
+                  <td class="cell" id='cell2'></td>
+                </tr>
+                <tr>
+                  <td class="cell" id='cell3'></td>
+                  <td class="cell" id='cell4'></td>
+                </tr>
+              </table>
+            </div>
+            <div class="scoreAndTimerBlock">
+              <div class="timerBlock" id=timerBlock>
+                <img id='timerLogo' src="./img/timer.png">
+              </div>
+              <div class="scoreTitleBlock" id=scoreTitle>Score</div>
+              <div class="scoreBlock" id=scoreValue>0</div>
+            </div>
+          </div>
+          <div class="buttonBlock">
+            <div class="buttons">
+              <div class="hintIcon"><img id='hint' src="./img/instruction.png"></div>
+              <div class="startIcon"><img id='startButton' src="./img/next.png"></div>
+              <div class="restartIcon"><img id='restartButton' src="./img/refresh.png"></div>
+            </div>
+          </div>
+        </div>
+  </body>
+</html>
