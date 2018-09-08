@@ -1,0 +1,26 @@
+{
+  "name": "confusegamewithserver",
+  "version": "1.0.0",
+  "description": "A simple color game",
+  "main": "app.js",
+  "engines": {
+    "node": "8.9.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitsudhin/confuseGameWithServer.git"
+  },
+  "author": "Sudhin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitsudhin/confuseGameWithServer/issues"
+  },
+  "homepage": "https://github.com/gitsudhin/confuseGameWithServer#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
